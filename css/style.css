@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Semibold.ttf');
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Black.ttf');
+}
+
+body {
+    background-color: #191411;
+    font-family: 'Gilroy', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 191px;
+}
+.logo img {
+    vertical-align: bottom;
+}
+.menu {   
+}
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+.menu-item {
+    margin-right: 88px;
+}
+
+.menu-item a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu-item a:hover {
+    color:chocolate;
+    transition-duration: 0.5s;
+}
+.currency {
+    width: 45px;
+    height: 45px;
+    padding: 11px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    font-size: 18px;
+    user-select: none;
+}
