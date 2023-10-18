@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
 }
 
-.main-button {
+.button {
     width: 260px;
     height: 62px;
     border-radius: 8px;
@@ -36,9 +36,10 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    padding: 19px 50px;
+    outline: none;
+    padding: 20px;
 }
-.main-button:hover {
+.button:hover {
     background: linear-gradient(96deg, #f97e03 0%, #ffbc05 100%);
     color: #000;
     border: 2px solid #fff;
@@ -53,7 +54,6 @@ body {
 
 .header {
     padding: 40px 0;
-    margin-bottom: 103px;
 }
 
 .header .container {
@@ -91,7 +91,7 @@ body {
     height: 45px;
     padding: 11px;
     box-sizing: border-box;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
@@ -101,6 +101,9 @@ body {
 }
 
 /* MAIN INFO */
+.main-content {
+    padding: 103px 0 200px 0;
+}
 .main-content .container {
     position: relative;
 }
@@ -109,12 +112,12 @@ body {
     max-width: 608px;
 }
 .main-small-info {
+    background: #d3320f;
     display: inline-block;
-    padding: 12px 16px;
     border-radius: 100px;
-    background: #D3320F;
+    padding: 12px 16px;
     font-size: 18px;
-    margin-bottom: 20px;
+    
 }
 .main-title {
     font-family: 'Merriweather', sans-serif;
